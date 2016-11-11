@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Searcher</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-black">
+  	<nav>
+	    <div class="nav-wrapper amber">
+	    	<a href="#" class="brand-logo center">
+	    		<img class="logo" src="img/logo-black.png" alt="star wars logo">  
+	    	</a>
+	      	<ul id="nav-mobile" class="hide-on-med-and-down">
+	        	<li class="left"><a href="index.html">Home</a></li>
+	        	<li class="left"><a href="info.html">Info</a></li>
+	        	<li class="right"><a href="characters.html">All Characters</a></li>
+	        	<li class="right"><a href="searcher.html">Searcher</a></li>
+	      	</ul>
+	    </div>
+  	</nav>
+	<section class="container">
+		<h1 class="center-align white-text">Star Wars's characters</h1>
+		<select class='dropdown-button btn amber' href='#' data-activates='dropdown1' name="" id="species">
+			<option value="-1">Choose your option</option>
+		</select>
+		<div class="row" id="resultsSearch">
+
+		</div>
+	</section>
+	<script type="text/javascript" src="js/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
